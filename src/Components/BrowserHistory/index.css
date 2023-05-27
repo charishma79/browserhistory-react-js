@@ -1,0 +1,136 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-card {
+  height: 10vh;
+  width: 100vw;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  background-color: #3367d6;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 8vh;
+  }
+}
+
+.logo {
+  height: 35px;
+  margin-right: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    height: 20px;
+    margin-right: 25px;
+  }
+}
+
+.search-logo {
+  height: 35px;
+  background-color: #2850a7;
+  border: 1px solid #ececec;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-right: 8px;
+  margin-right: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .search-logo {
+    margin-right: 4px;
+  }
+}
+
+.search-input {
+  height: 35px;
+  width: 330px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border: 1px solid #ececec;
+  background-color: #2850a7;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .history-container {
+    width: 100px;
+  }
+}
+
+.history-container {
+  min-height: 90vh;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 60px;
+  margin-right: 60px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .history-container {
+    width: 100vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+.no-history-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 255px;
+}
+
+.no-history {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.time-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .time-container {
+    flex-direction: column;
+  }
+}
+
+.history-unordered-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding-left: 0px;
+}
